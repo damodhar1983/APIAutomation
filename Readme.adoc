@@ -35,11 +35,7 @@ Location of the automation scripts :
 
 projectlocation\src\test\java
 
-Feature file path : projectlocation\src\test\java\features\servicecenterlocation.feature
 
-Runner file path : projectlocation\src\test\java\runner\Testrunner.java
-
-Step Definition path: projectlocation\src\test\java\seleniumgluecode\Test.java
 
 1.Open  command prompt
 
