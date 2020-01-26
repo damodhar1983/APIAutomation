@@ -1,0 +1,78 @@
+#Project Title
+
+API Automation
+
+## Framework , tools and coding language used. 
+
+Programming Langugage :Java
+
+Framework :BDD Framework with REST Assured
+
+Build Tool: Maven
+
+## Source code management and CI Tools used
+CI Tool: CircleCI
+Source Code management : GIT HUB
+
+## Getting Started
+
+These instructions will get you a copy of the project up and running on your local machine .
+
+## Prerequisites
+
+Install java ,Maven , Any IDE( Eg. eclipse)
+
+## Running the tests
+
+clone the repository from the below git url and store in local system.
+
+https://github.com/damodhar1983/api-techtest.git
+
+project location = the location of the project on your local system
+
+Location of the automation scripts :
+
+projectlocation\techtest\src\test\java
+
+Feature file path : projectlocation\techtest\src\test\java\features\servicecenterlocation.feature
+
+Runner file path : projectlocation\techtest\src\test\java\runner\Testrunner.java
+
+Step Definition path: projectlocation\techtest\src\test\java\seleniumgluecode\Test.java
+
+1.Open  command prompt
+
+2.Open the command prompt and cd(change directory) until the project root directory.
+
+3.Since it’s a Maven project and  have added Cucumber in test scope dependency and all features are also added in src/test packages,
+
+
+run the following command in the command prompt: 
+
+  mvn test
+
+4.You would notice  that Testrunner file is executed.
+
+## Reports:
+
+Once the Exeuction is completed Refresh the project 
+
+We will get two type of reports after the execution
+## Cucumber HTML Reports:
+To check the HTML reports Navigate to the below path
+Go to project folder -->Target-->htmlreports-->index.html
+
+## Cucumber Extent Reports:
+Go to project folder -->Target-->target --> cucumber-reports --> report.html
+
+## Results are also stored in JSON format:
+The Actual result of GET Current weather API is stored in the below JSON file.
+projectlocation\GetCurrentWeather_Output.json
+
+The Actual result of GET Daily forecast API is stored in the below JSON file.
+projectlocation\GetDailyForecast_Output.json
+
+## CI Integration 
+The code in the GIT is integrated to circleci which is a CI/CD tool.
+1. Perform any changes and commit the code to the GIT Repsitory.
+2. We can observe that the build is performed and the test cases are executed .
