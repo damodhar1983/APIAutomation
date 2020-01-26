@@ -74,5 +74,7 @@ projectlocation\GetDailyForecast_Output.json
 
 ## CI Integration 
 The code in the GIT is integrated to circleci which is a CI/CD tool.
+
 1. Perform any changes and commit the code to the GIT Repsitory.
+
 2. We can observe that the build is performed and the test cases are executed .
