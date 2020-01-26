@@ -83,3 +83,6 @@ The code in the GIT is integrated to circleci which is a CI/CD tool.
 1. Perform any changes and commit the code to the GIT Repsitory.
 
 2. We can observe that the build is performed and the test cases are executed .
+
+3.There will be a Tick mark next to the Latest commit(example :  Latest commit ec88905 4 minutes ago).
+click on the Tick mark and it will take you to the circleci page where we can view the build results.
