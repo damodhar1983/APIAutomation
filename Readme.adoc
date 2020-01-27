@@ -53,10 +53,13 @@ run the following command in the command prompt:
 
 ## Reports:
 
+### ------------------------------------------------
+
 ### Console output:
 
 The result can be found in the console output
 
+### ------------------------------------------------
 Once the Exeuction is completed Refresh the project 
 
 We will get two type of reports after the execution
