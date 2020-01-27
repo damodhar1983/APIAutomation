@@ -39,7 +39,7 @@ projectlocation\src\test\java
 
 1.Open  command prompt
 
-2.Open the command prompt and cd(change directory) until the project root directory.
+2.Open the command prompt and cd(change directory) until the project root directory.( change directory till  the folder where pom.xml exists )
 
 3.Since it’s a Maven project and  have added Cucumber in test scope dependency and all features are also added in src/test packages,
 
@@ -50,23 +50,28 @@ run the following command in the command prompt:
 
 4.You would notice  that Testrunner file is executed.
 
+
 ## Reports:
+
+### Console output:
+
+The result can be found in the console output
 
 Once the Exeuction is completed Refresh the project 
 
 We will get two type of reports after the execution
 
-## Cucumber HTML Reports:
+### Cucumber HTML Reports:
 
 To check the HTML reports Navigate to the below path
 
 Go to project folder -->Target-->htmlreports-->index.html
 
-## Cucumber Extent Reports:
+### Cucumber Extent Reports:
 
 Go to project folder -->-->target --> cucumber-reports --> report.html
 
-## Results are also stored in JSON format:
+### Results are also stored in JSON format:
 
 The Actual result of GET Current weather API is stored in the below JSON file.
 
